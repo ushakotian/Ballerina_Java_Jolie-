@@ -1,0 +1,34 @@
+starting up netbeans server -
+Launching GlassFish on Felix platform ERROR: Unable to create cache directory: C:\Program Files\glassfish-5.0.1\glassfish5\glassfish\domains\domain1\osgi-cache\felix
+https://stackoverflow.com/questions/38916558/could-not-start-glassfish-server-4-1-1-http-or-https-listener-port-is-occupied-w
+
+Issue - https://stackoverflow.com/questions/58411279/java-with-maven-wouldnt-build-cannot-run-program-cmd-malformed-argument-has
+Mavnen insatall failed through netbeans had to do it through in command line
+
+issue running the program in netbeans because worng version was picked by netbeans
+To overcome this issue, Maven install of the archetype for jaxrs done through commandline. 
+Starting the glassfish server and running the rest service is done by IDE.
+
+Ballerina WS - 
+No server required
+Simple
+
+Jolie Installation -
+https://www.jolie-lang.org/downloads.html
+Jolie did not run with the default installation location. Had to change the launcher location to the jolie binary location to install jolie.
+IDE installation - VSCOde plugin installed.
+
+No server required
+Rest Example - used example from introduction
+jolie thelloWorld.ol 
+
+SOAP Example
+Java
+Exception in Netbeans IDE -
+REfer to the exception screenshot taken 
+https://stackoverflow.com/questions/23937494/cannot-deploy-webservice-with-netbeans-and-glassfish-server
+https://netbeans.org/kb/docs/websvc/jax-ws.html
+https://stackoverflow.com/questions/23011547/webservice-client-generation-error-with-jdk8
+
+mvn install does not work outside netbeans -
+https://stackoverflow.com/questions/20360767/netbeans-build-failure/20443380
