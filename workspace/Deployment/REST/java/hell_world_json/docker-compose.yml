@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+
+    
+    hello:
+       build:
+        context: .
+        dockerfile: ../hello_json/Dockerfile        
+       image: hello_rest_json_java
+       ports:
+            - "8081:8080"
+        
+       
+    world:
+       build:
+        context: .
+        dockerfile:  ../world_json/Dockerfile
+       image: world_rest_json_java
+       ports:
+           - "8082:8080"
+       
+       

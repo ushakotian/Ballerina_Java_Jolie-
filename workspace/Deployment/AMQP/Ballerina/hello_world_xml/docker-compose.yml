@@ -1,0 +1,31 @@
+version: '3.4'
+
+services:
+
+    rabbitmq:
+        image: rabbitmq:3
+        ports: 
+            - "15672:15672"
+            - "5672:5672"
+
+    
+    hello:
+       build:
+        context: .
+        dockerfile: ../hello_xml/Dockerfile        
+       image: hello_amqp_xml_bal
+       ports:
+            - "9091:9090"
+        
+        
+       
+        
+       
+    world:
+       build:
+        context: .
+        dockerfile:  ../world_xml/Dockerfile
+       image: world_amqp_xml_bal
+       
+       
+       

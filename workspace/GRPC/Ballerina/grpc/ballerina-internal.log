@@ -1,0 +1,27 @@
+[2020-09-05 17:29:19,438] SEVERE {b7a.log.crash} - it-lt46.client.$value$HelloResponse cannot be cast to java.lang.String 
+java.lang.ClassCastException: it-lt46.client.$value$HelloResponse cannot be cast to java.lang.String
+	at it-lt46.client.$value$_anonService_0__service_1.call(helloWorld_sample_client.bal)
+	at org.ballerinalang.jvm.BRuntime.lambda$invokeMethodAsync$2(BRuntime.java:84)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at java.lang.Thread.run(Thread.java:748)
+ 
+[2020-09-05 17:34:11,764] SEVERE {b7a.log.crash} - it-lt46.client.$value$HelloResponse cannot be cast to java.lang.String 
+java.lang.ClassCastException: it-lt46.client.$value$HelloResponse cannot be cast to java.lang.String
+	at it-lt46.client.$value$_anonService_0__service_1.call(helloWorld_sample_client.bal)
+	at org.ballerinalang.jvm.BRuntime.lambda$invokeMethodAsync$2(BRuntime.java:84)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at java.lang.Thread.run(Thread.java:748)
+ 
+[2020-09-05 17:35:32,086] SEVERE {b7a.log.crash} - it-lt46.client.$value$HelloResponse cannot be cast to java.lang.String 
+java.lang.ClassCastException: it-lt46.client.$value$HelloResponse cannot be cast to java.lang.String
+	at it-lt46.client.$value$_anonService_0__service_1.call(helloWorld_sample_client.bal)
+	at org.ballerinalang.jvm.BRuntime.lambda$invokeMethodAsync$2(BRuntime.java:84)
+	at org.ballerinalang.jvm.scheduling.SchedulerItem.execute(Scheduler.java:482)
+	at org.ballerinalang.jvm.scheduling.Scheduler.run(Scheduler.java:263)
+	at org.ballerinalang.jvm.scheduling.Scheduler.runSafely(Scheduler.java:231)
+	at java.lang.Thread.run(Thread.java:748)
+ 

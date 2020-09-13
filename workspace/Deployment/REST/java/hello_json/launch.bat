@@ -1,0 +1,1 @@
+docker run --name hello -p 8081:8080 hello_json_java:latest

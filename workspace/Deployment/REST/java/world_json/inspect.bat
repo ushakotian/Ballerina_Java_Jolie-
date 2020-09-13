@@ -1,0 +1,1 @@
+docker inspect --format='{{json .NetworkSettings.Networks}}'  world_json_java:latest

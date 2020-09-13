@@ -4,10 +4,29 @@
     <artifactId>hello</artifactId>
     <packaging>war</packaging>
     <name>hello-json</name>
+    <build>
+        <plugins>
+            <plugin>
+                <!-- Build an executable JAR -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib/</classpathPrefix>
+                            <mainClass>javaeetutorial.hello.Hello</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <parent>
-      <groupId>org.glassfish.javaeetutorial</groupId>
-      <artifactId>jaxrs</artifactId>
-      <version>8.1-SNAPSHOT</version>
+        <groupId>org.glassfish.javaeetutorial</groupId>
+        <artifactId>jaxrs</artifactId>
+        <version>8.1-SNAPSHOT</version>
     </parent>
 </project>

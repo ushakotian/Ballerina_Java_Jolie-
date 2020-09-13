@@ -7,15 +7,15 @@ RequestResponse: hello( void )( string )
 
 
 inputPort HelloInput {
-location: "socket://localhost:8081"        // Use TCP/IP
+location: "socket://localhost:8081"        
 protocol: http      // Use HTTP
-interfaces: HelloAPI                    // Publish HelloWorldAPI
+interfaces: HelloAPI                    
 }
 
 
 main
 {    
     hello(  )( response ) {
-        response = "<message1>Hello</message1>" 
+        response = "<message1>hello</message1>" 
     }
 }

@@ -1,0 +1,1 @@
+docker run -d --name world-xml-2 -p 8085:8080 world_xml_java:latest

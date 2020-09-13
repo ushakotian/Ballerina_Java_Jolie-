@@ -9,9 +9,9 @@ RequestResponse: world( void )( string )
 }
 
 inputPort WorldInput {
-location: "socket://localhost:8083"        // Use TCP/IP
-protocol: http { format = "xml" }       // Use HTTP
-interfaces: WorldAPI                    // Publish HelloWorldAPI
+location: "socket://localhost:8083"        
+protocol: http { format = "xml" }       
+interfaces: WorldAPI                    
 }
 
 
@@ -26,7 +26,7 @@ main
     
     world(  )( response ) {
         hello@hello(  )( response1 );
-        response = "<root>"+response1 +"<message2>World</message2></root>" 
+        response = "<root>"+response1 +"<message2>world</message2></root>" 
         
     }
 

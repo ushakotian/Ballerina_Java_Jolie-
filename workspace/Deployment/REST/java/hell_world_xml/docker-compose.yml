@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+
+    
+    hello-xml:
+       build:
+        context: .
+        dockerfile: ../hello_xml/Dockerfile        
+       image: hello_rest_xml_java
+       ports:
+            - "8083:8080"
+        
+       
+    world-xml:
+       build:
+        context: .
+        dockerfile:  ../world_xml/Dockerfile
+       image: world_rest_xml_java
+       ports:
+           - "8084:8080"
+       
+       
