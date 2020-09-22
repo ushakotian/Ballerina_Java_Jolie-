@@ -43,5 +43,10 @@
             <artifactId>amqp-client</artifactId>
             <version>5.7.1</version>
         </dependency>
+        <dependency>
+            <groupId>javax.xml.parsers</groupId>
+            <artifactId>jaxp-api</artifactId>
+            <version>1.4.5</version>
+        </dependency>
     </dependencies>
 </project>

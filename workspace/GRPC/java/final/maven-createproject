@@ -1,0 +1,4 @@
+ mvn archetype:generate -DgroupId=com.example.grpc \
+ -DartifactId=grpc-world-server \
+ -DarchetypeArtifactId=maven-archetype-quickstart \
+ -DinteractiveMode=false

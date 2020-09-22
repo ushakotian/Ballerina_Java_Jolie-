@@ -119,6 +119,7 @@
         <module>security</module>
         <module>web</module>
         <module>world</module>
+        <module>test</module>
     </modules>
     
     <repositories>

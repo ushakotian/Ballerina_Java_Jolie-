@@ -6,8 +6,17 @@
     <name>world-xml</name>
 
     <parent>
-      <groupId>org.glassfish.javaeetutorial</groupId>
-      <artifactId>jaxrs</artifactId>
-      <version>8.1-SNAPSHOT</version>
+        <groupId>org.glassfish.javaeetutorial</groupId>
+        <artifactId>jaxrs</artifactId>
+        <version>8.1-SNAPSHOT</version>
     </parent>
+    
+    <dependencies>
+        <dependency>
+            <groupId>javax.xml.parsers</groupId>
+            <artifactId>jaxp-api</artifactId>
+            <version>1.4.5</version>
+        </dependency>
+    </dependencies>
+    
 </project>

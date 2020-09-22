@@ -1,1 +1,0 @@
-docker run -d --name world --link hello:hello_json_java -p 8082:8080 world_json_java:latest

@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+        
+    hello:
+       build:
+        context: .
+        dockerfile: ../hello/Dockerfile        
+       image: hello_grpc_java
+       
+        
+       
+    world:
+       build:
+        context: .
+        dockerfile:  ../world/Dockerfile
+       image: world_grpc_java
+       ports:
+            - "8085:8080"
+       
+       
+       

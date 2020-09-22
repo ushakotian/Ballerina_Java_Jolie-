@@ -1,2 +1,15 @@
 /workspace/REST/java/jaxrs/hello/target/
 /workspace/REST/java/jaxrs/hello - Copy/target/
+/workspace/REST/java/jaxrs/hello_json/target/
+/workspace/AMQP/java/producer/greet_json/target/
+/workspace/AMQP/java/producer/greet_xml/target/
+/workspace/AMQP/java/producer/greet_json - Copy/target/
+/workspace/AMQP/java/producer/greeter/target/
+/workspace/AMQP/java/world/nbproject/private/
+/workspace/AMQP/java/world/target/
+/workspace/AMQP/java/producer/hello_xml/target/
+/workspace/AMQP/java/world - Copy/target/
+/workspace/AMQP/java/world_xml/target/
+/workspace/GRPC/java/final/grpc-world-server/target/
+/workspace/GRPC/java/final/grpc-world-client/target/
+/workspace/AMQP/java/test/target/

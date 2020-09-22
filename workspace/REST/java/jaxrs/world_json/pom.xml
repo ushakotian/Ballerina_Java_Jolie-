@@ -6,8 +6,16 @@
     <name>world-json</name>
 
     <parent>
-      <groupId>org.glassfish.javaeetutorial</groupId>
-      <artifactId>jaxrs</artifactId>
-      <version>8.1-SNAPSHOT</version>
+        <groupId>org.glassfish.javaeetutorial</groupId>
+        <artifactId>jaxrs</artifactId>
+        <version>8.1-SNAPSHOT</version>
     </parent>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20200518</version>
+        </dependency>
+    </dependencies>
 </project>

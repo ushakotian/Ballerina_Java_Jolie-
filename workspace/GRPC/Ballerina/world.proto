@@ -1,0 +1,10 @@
+syntax = "proto3";
+service world {
+    rpc world(WorldRequest) returns (WorldResponse);    
+}
+message WorldRequest {
+	string message1 = 1;
+}
+message WorldResponse {
+	string finalmessage = 1;
+}

@@ -1,1 +1,0 @@
-docker build -t world_json_java .
