@@ -1,0 +1,84 @@
+{
+	"id": "31d76d35-fac3-474a-9f3a-68fa11666847",
+	"name": "ReST_Java_Xml",
+	"timestamp": "2020-09-23T00:14:13.701Z",
+	"collection_id": "a0ad8f1a-660e-4880-89e0-4c51bb1d4901",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 10,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "10cf2a6f-2e08-4a5b-a294-7f4db3370f17",
+			"name": "world_xml",
+			"time": 29,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				27,
+				26,
+				30,
+				27,
+				22,
+				25,
+				28,
+				32,
+				27,
+				29
+			],
+			"allTests": [
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 273,
+	"collection": {
+		"requests": [
+			{
+				"id": "10cf2a6f-2e08-4a5b-a294-7f4db3370f17",
+				"method": "GET"
+			}
+		]
+	}
+}

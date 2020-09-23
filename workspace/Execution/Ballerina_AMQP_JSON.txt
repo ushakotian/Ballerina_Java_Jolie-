@@ -1,0 +1,573 @@
+Attaching to hello_world_json_world_1, hello_world_json_hello_1, hello_world_json_rabbitmq_1
+[33mrabbitmq_1  |[0m Configuring logger redirection
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.263 [debug] <0.284.0> Lager installed handler error_logger_lager_h into error_logger
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.267 [debug] <0.287.0> Lager installed handler lager_forwarder_backend into error_logger_lager_event
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.267 [debug] <0.308.0> Lager installed handler lager_forwarder_backend into rabbit_log_mirroring_lager_event
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.267 [debug] <0.290.0> Lager installed handler lager_forwarder_backend into rabbit_log_lager_event
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.267 [debug] <0.311.0> Lager installed handler lager_forwarder_backend into rabbit_log_prelaunch_lager_event
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.267 [debug] <0.293.0> Lager installed handler lager_forwarder_backend into rabbit_log_channel_lager_event
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.267 [debug] <0.323.0> Lager installed handler lager_forwarder_backend into rabbit_log_upgrade_lager_event
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.268 [debug] <0.296.0> Lager installed handler lager_forwarder_backend into rabbit_log_connection_lager_event
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.268 [debug] <0.299.0> Lager installed handler lager_forwarder_backend into rabbit_log_feature_flags_lager_event
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.268 [debug] <0.302.0> Lager installed handler lager_forwarder_backend into rabbit_log_federation_lager_event
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.268 [debug] <0.305.0> Lager installed handler lager_forwarder_backend into rabbit_log_ldap_lager_event
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.268 [debug] <0.314.0> Lager installed handler lager_forwarder_backend into rabbit_log_queue_lager_event
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.268 [debug] <0.317.0> Lager installed handler lager_forwarder_backend into rabbit_log_ra_lager_event
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.268 [debug] <0.320.0> Lager installed handler lager_forwarder_backend into rabbit_log_shovel_lager_event
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.286 [info] <0.44.0> Application lager started on node rabbit@4ad018b41da9
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.397 [info] <0.44.0> Application mnesia started on node rabbit@4ad018b41da9
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.397 [info] <0.269.0> 
+[33mrabbitmq_1  |[0m  Starting RabbitMQ 3.8.8 on Erlang 23.0.4
+[33mrabbitmq_1  |[0m  Copyright (c) 2007-2020 VMware, Inc. or its affiliates.
+[33mrabbitmq_1  |[0m  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+
+[33mrabbitmq_1  |[0m 
+[33mrabbitmq_1  |[0m   ##  ##      RabbitMQ 3.8.8
+[33mrabbitmq_1  |[0m   ##  ##
+[33mrabbitmq_1  |[0m   ##########  Copyright (c) 2007-2020 VMware, Inc. or its affiliates.
+[33mrabbitmq_1  |[0m   ######  ##
+[33mrabbitmq_1  |[0m   ##########  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+[33mrabbitmq_1  |[0m 
+[33mrabbitmq_1  |[0m   Doc guides: https://rabbitmq.com/documentation.html
+[33mrabbitmq_1  |[0m   Support:    https://rabbitmq.com/contact.html
+[33mrabbitmq_1  |[0m   Tutorials:  https://rabbitmq.com/getstarted.html
+[33mrabbitmq_1  |[0m   Monitoring: https://rabbitmq.com/monitoring.html
+[33mrabbitmq_1  |[0m 
+[33mrabbitmq_1  |[0m   Logs: <stdout>
+[33mrabbitmq_1  |[0m 
+[33mrabbitmq_1  |[0m   Config file(s): /etc/rabbitmq/rabbitmq.conf
+[33mrabbitmq_1  |[0m                   /etc/rabbitmq/conf.d/management_agent.disable_metrics_collector.conf
+[33mrabbitmq_1  |[0m 
+[33mrabbitmq_1  |[0m   Starting broker...2020-09-23 08:05:51.398 [info] <0.269.0> 
+[33mrabbitmq_1  |[0m  node           : rabbit@4ad018b41da9
+[33mrabbitmq_1  |[0m  home dir       : /var/lib/rabbitmq
+[33mrabbitmq_1  |[0m  config file(s) : /etc/rabbitmq/rabbitmq.conf
+[33mrabbitmq_1  |[0m                 : /etc/rabbitmq/conf.d/management_agent.disable_metrics_collector.conf
+[33mrabbitmq_1  |[0m  cookie hash    : NN00NWGrtTB06nNnoPocmA==
+[33mrabbitmq_1  |[0m  log(s)         : <stdout>
+[33mrabbitmq_1  |[0m  database dir   : /var/lib/rabbitmq/mnesia/rabbit@4ad018b41da9
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:51.763 [debug] <0.280.0> Lager installed handler lager_backend_throttle into lager_event
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.726 [info] <0.269.0> Running boot step pre_boot defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.726 [info] <0.269.0> Running boot step rabbit_core_metrics defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.727 [info] <0.269.0> Running boot step rabbit_alarm defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.729 [info] <0.351.0> Memory high watermark set to 796 MiB (835253043 bytes) of 1991 MiB (2088132608 bytes) total
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.732 [info] <0.353.0> Enabling free disk space monitoring
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.732 [info] <0.353.0> Disk free limit set to 50MB
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.735 [info] <0.269.0> Running boot step code_server_cache defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.735 [info] <0.269.0> Running boot step file_handle_cache defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.735 [info] <0.356.0> Limiting to approx 1048479 file handles (943629 sockets)
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.735 [info] <0.357.0> FHC read buffering:  OFF
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.735 [info] <0.357.0> FHC write buffering: ON
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.735 [info] <0.269.0> Running boot step worker_pool defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.735 [info] <0.343.0> Will use 2 processes for default worker pool
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.735 [info] <0.343.0> Starting worker pool 'worker_pool' with 2 processes in it
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.736 [info] <0.269.0> Running boot step database defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.736 [info] <0.269.0> Node database directory at /var/lib/rabbitmq/mnesia/rabbit@4ad018b41da9 is empty. Assuming we need to join an existing cluster or initialise from scratch...
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.736 [info] <0.269.0> Configured peer discovery backend: rabbit_peer_discovery_classic_config
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.736 [info] <0.269.0> Will try to lock with peer discovery backend rabbit_peer_discovery_classic_config
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.736 [info] <0.269.0> Peer discovery backend does not support locking, falling back to randomized delay
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.736 [info] <0.269.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping randomized startup delay.
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.736 [info] <0.269.0> All discovered existing cluster peers: 
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.736 [info] <0.269.0> Discovered no peer nodes to cluster with. Some discovery backends can filter nodes out based on a readiness criteria. Enabling debug logging might help troubleshoot.
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.738 [info] <0.44.0> Application mnesia exited with reason: stopped
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.738 [info] <0.44.0> Application mnesia exited with reason: stopped
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.762 [info] <0.44.0> Application mnesia started on node rabbit@4ad018b41da9
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.906 [info] <0.269.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.906 [info] <0.269.0> Successfully synced tables from a peer
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.924 [info] <0.269.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.924 [info] <0.269.0> Successfully synced tables from a peer
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.924 [info] <0.269.0> Feature flag `implicit_default_bindings`: supported, attempt to enable...
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.924 [info] <0.269.0> Feature flag `implicit_default_bindings`: mark as enabled=state_changing
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.929 [info] <0.269.0> Feature flags: list of feature flags found:
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.929 [info] <0.269.0> Feature flags:   [~] implicit_default_bindings
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.929 [info] <0.269.0> Feature flags:   [ ] maintenance_mode_status
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.929 [info] <0.269.0> Feature flags:   [ ] quorum_queue
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.929 [info] <0.269.0> Feature flags:   [ ] virtual_host_metadata
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.929 [info] <0.269.0> Feature flags: feature flag states written to disk: yes
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.937 [info] <0.269.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.937 [info] <0.269.0> Successfully synced tables from a peer
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.937 [info] <0.269.0> Feature flag `implicit_default_bindings`: mark as enabled=true
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.942 [info] <0.269.0> Feature flags: list of feature flags found:
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.942 [info] <0.269.0> Feature flags:   [x] implicit_default_bindings
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.942 [info] <0.269.0> Feature flags:   [ ] maintenance_mode_status
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.942 [info] <0.269.0> Feature flags:   [ ] quorum_queue
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.942 [info] <0.269.0> Feature flags:   [ ] virtual_host_metadata
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.942 [info] <0.269.0> Feature flags: feature flag states written to disk: yes
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.950 [info] <0.269.0> Feature flag `maintenance_mode_status`: supported, attempt to enable...
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.951 [info] <0.269.0> Feature flag `maintenance_mode_status`: mark as enabled=state_changing
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.955 [info] <0.269.0> Feature flags: list of feature flags found:
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.955 [info] <0.269.0> Feature flags:   [x] implicit_default_bindings
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.955 [info] <0.269.0> Feature flags:   [~] maintenance_mode_status
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.955 [info] <0.269.0> Feature flags:   [ ] quorum_queue
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.955 [info] <0.269.0> Feature flags:   [ ] virtual_host_metadata
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.955 [info] <0.269.0> Feature flags: feature flag states written to disk: yes
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.965 [info] <0.269.0> Creating table rabbit_node_maintenance_states for feature flag `maintenance_mode_status`
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.973 [info] <0.269.0> Feature flag `maintenance_mode_status`: mark as enabled=true
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.978 [info] <0.269.0> Feature flags: list of feature flags found:
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.978 [info] <0.269.0> Feature flags:   [x] implicit_default_bindings
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.978 [info] <0.269.0> Feature flags:   [x] maintenance_mode_status
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.979 [info] <0.269.0> Feature flags:   [ ] quorum_queue
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.979 [info] <0.269.0> Feature flags:   [ ] virtual_host_metadata
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.979 [info] <0.269.0> Feature flags: feature flag states written to disk: yes
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.988 [info] <0.269.0> Feature flag `quorum_queue`: supported, attempt to enable...
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.988 [info] <0.269.0> Feature flag `quorum_queue`: mark as enabled=state_changing
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.992 [info] <0.269.0> Feature flags: list of feature flags found:
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.992 [info] <0.269.0> Feature flags:   [x] implicit_default_bindings
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.992 [info] <0.269.0> Feature flags:   [x] maintenance_mode_status
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.992 [info] <0.269.0> Feature flags:   [~] quorum_queue
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.992 [info] <0.269.0> Feature flags:   [ ] virtual_host_metadata
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:52.992 [info] <0.269.0> Feature flags: feature flag states written to disk: yes
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.001 [info] <0.269.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.001 [info] <0.269.0> Successfully synced tables from a peer
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.001 [info] <0.269.0> Feature flag `quorum_queue`:   migrating Mnesia table rabbit_queue...
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.028 [info] <0.269.0> Feature flag `quorum_queue`:   migrating Mnesia table rabbit_durable_queue...
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.064 [info] <0.269.0> Feature flag `quorum_queue`:   Mnesia tables migration done
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.064 [info] <0.269.0> Feature flag `quorum_queue`: mark as enabled=true
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.074 [info] <0.269.0> Feature flags: list of feature flags found:
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.074 [info] <0.269.0> Feature flags:   [x] implicit_default_bindings
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.074 [info] <0.269.0> Feature flags:   [x] maintenance_mode_status
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.074 [info] <0.269.0> Feature flags:   [x] quorum_queue
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.074 [info] <0.269.0> Feature flags:   [ ] virtual_host_metadata
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.074 [info] <0.269.0> Feature flags: feature flag states written to disk: yes
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.084 [info] <0.269.0> Feature flag `virtual_host_metadata`: supported, attempt to enable...
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.084 [info] <0.269.0> Feature flag `virtual_host_metadata`: mark as enabled=state_changing
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.088 [info] <0.269.0> Feature flags: list of feature flags found:
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.089 [info] <0.269.0> Feature flags:   [x] implicit_default_bindings
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.089 [info] <0.269.0> Feature flags:   [x] maintenance_mode_status
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.089 [info] <0.269.0> Feature flags:   [x] quorum_queue
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.089 [info] <0.269.0> Feature flags:   [~] virtual_host_metadata
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.089 [info] <0.269.0> Feature flags: feature flag states written to disk: yes
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.097 [info] <0.269.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.098 [info] <0.269.0> Successfully synced tables from a peer
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.127 [info] <0.269.0> Feature flag `virtual_host_metadata`: mark as enabled=true
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.132 [info] <0.269.0> Feature flags: list of feature flags found:
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.132 [info] <0.269.0> Feature flags:   [x] implicit_default_bindings
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.132 [info] <0.269.0> Feature flags:   [x] maintenance_mode_status
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.132 [info] <0.269.0> Feature flags:   [x] quorum_queue
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.133 [info] <0.269.0> Feature flags:   [x] virtual_host_metadata
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.133 [info] <0.269.0> Feature flags: feature flag states written to disk: yes
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.141 [info] <0.269.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.142 [info] <0.269.0> Successfully synced tables from a peer
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.166 [info] <0.269.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.166 [info] <0.269.0> Successfully synced tables from a peer
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.166 [info] <0.269.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.166 [info] <0.269.0> Running boot step database_sync defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.166 [info] <0.269.0> Running boot step feature_flags defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.166 [info] <0.269.0> Running boot step codec_correctness_check defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.167 [info] <0.269.0> Running boot step external_infrastructure defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.167 [info] <0.269.0> Running boot step rabbit_registry defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.167 [info] <0.269.0> Running boot step rabbit_auth_mechanism_cr_demo defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.167 [info] <0.269.0> Running boot step rabbit_queue_location_random defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.167 [info] <0.269.0> Running boot step rabbit_event defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.167 [info] <0.269.0> Running boot step rabbit_auth_mechanism_amqplain defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.167 [info] <0.269.0> Running boot step rabbit_auth_mechanism_plain defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.167 [info] <0.269.0> Running boot step rabbit_exchange_type_direct defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.167 [info] <0.269.0> Running boot step rabbit_exchange_type_fanout defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.168 [info] <0.269.0> Running boot step rabbit_exchange_type_headers defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.168 [info] <0.269.0> Running boot step rabbit_exchange_type_topic defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.168 [info] <0.269.0> Running boot step rabbit_mirror_queue_mode_all defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.169 [info] <0.269.0> Running boot step rabbit_mirror_queue_mode_exactly defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.169 [info] <0.269.0> Running boot step rabbit_mirror_queue_mode_nodes defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.169 [info] <0.269.0> Running boot step rabbit_priority_queue defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.169 [info] <0.269.0> Priority queues enabled, real BQ is rabbit_variable_queue
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.169 [info] <0.269.0> Running boot step rabbit_queue_location_client_local defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.170 [info] <0.269.0> Running boot step rabbit_queue_location_min_masters defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.170 [info] <0.269.0> Running boot step kernel_ready defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.170 [info] <0.269.0> Running boot step rabbit_sysmon_minder defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.170 [info] <0.269.0> Running boot step rabbit_epmd_monitor defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.171 [info] <0.588.0> epmd monitor knows us, inter-node communication (distribution) port: 25672
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.171 [info] <0.269.0> Running boot step guid_generator defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.178 [info] <0.269.0> Running boot step rabbit_node_monitor defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.178 [info] <0.592.0> Starting rabbit_node_monitor
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.179 [info] <0.269.0> Running boot step delegate_sup defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.180 [info] <0.269.0> Running boot step rabbit_memory_monitor defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.180 [info] <0.269.0> Running boot step core_initialized defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.180 [info] <0.269.0> Running boot step upgrade_queues defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.191 [info] <0.269.0> message_store upgrades: 1 to apply
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.191 [info] <0.269.0> message_store upgrades: Applying rabbit_variable_queue:move_messages_to_vhost_store
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.192 [info] <0.269.0> message_store upgrades: No durable queues found. Skipping message store migration
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.192 [info] <0.269.0> message_store upgrades: Removing the old message store data
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.192 [info] <0.269.0> message_store upgrades: All upgrades applied successfully
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.209 [info] <0.269.0> Running boot step rabbit_connection_tracking defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.209 [info] <0.269.0> Running boot step rabbit_connection_tracking_handler defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.209 [info] <0.269.0> Running boot step rabbit_exchange_parameters defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.209 [info] <0.269.0> Running boot step rabbit_mirror_queue_misc defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.210 [info] <0.269.0> Running boot step rabbit_policies defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.211 [info] <0.269.0> Running boot step rabbit_policy defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.211 [info] <0.269.0> Running boot step rabbit_queue_location_validator defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.211 [info] <0.269.0> Running boot step rabbit_quorum_memory_manager defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.211 [info] <0.269.0> Running boot step rabbit_vhost_limit defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.211 [info] <0.269.0> Running boot step recovery defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.212 [info] <0.269.0> Running boot step empty_db_check defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.212 [info] <0.269.0> Will seed default virtual host and user...
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.212 [info] <0.269.0> Adding vhost '/' (description: 'Default virtual host')
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.257 [info] <0.629.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@4ad018b41da9/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.263 [info] <0.629.0> Starting message stores for vhost '/'
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.264 [info] <0.633.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.265 [info] <0.629.0> Started message store of type transient for vhost '/'
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.265 [info] <0.637.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.266 [warning] <0.637.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.267 [info] <0.629.0> Started message store of type persistent for vhost '/'
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.274 [info] <0.269.0> Created user 'guest'
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.280 [info] <0.269.0> Successfully set user tags for user 'guest' to [administrator]
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.286 [info] <0.269.0> Successfully set permissions for 'guest' in virtual host '/' to '.*', '.*', '.*'
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.286 [info] <0.269.0> Running boot step rabbit_looking_glass defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.286 [info] <0.269.0> Running boot step rabbit_core_metrics_gc defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.286 [info] <0.269.0> Running boot step background_gc defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.286 [info] <0.269.0> Running boot step connection_tracking defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.293 [info] <0.269.0> Setting up a table for connection tracking on this node: tracked_connection_on_node_rabbit@4ad018b41da9
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.300 [info] <0.269.0> Setting up a table for per-vhost connection counting on this node: tracked_connection_per_vhost_on_node_rabbit@4ad018b41da9
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.300 [info] <0.269.0> Running boot step routing_ready defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.300 [info] <0.269.0> Running boot step pre_flight defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.300 [info] <0.269.0> Running boot step notify_cluster defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.300 [info] <0.269.0> Running boot step networking defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.300 [info] <0.269.0> Running boot step definition_import_worker_pool defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.301 [info] <0.343.0> Starting worker pool 'definition_import_pool' with 2 processes in it
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.301 [info] <0.269.0> Running boot step cluster_name defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.301 [info] <0.269.0> Initialising internal cluster ID to 'rabbitmq-cluster-id-vFhrAtRKyeF6WbPhceJFZQ'
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.308 [info] <0.269.0> Running boot step direct_client defined by app rabbit
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.309 [info] <0.44.0> Application rabbit started on node rabbit@4ad018b41da9
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.485 [info] <0.676.0> Feature flags: list of feature flags found:
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.485 [info] <0.676.0> Feature flags:   [ ] drop_unroutable_metric
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.485 [info] <0.676.0> Feature flags:   [ ] empty_basic_get_metric
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.485 [info] <0.676.0> Feature flags:   [x] implicit_default_bindings
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.485 [info] <0.676.0> Feature flags:   [x] maintenance_mode_status
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.485 [info] <0.676.0> Feature flags:   [x] quorum_queue
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.485 [info] <0.676.0> Feature flags:   [x] virtual_host_metadata
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.485 [info] <0.676.0> Feature flags: feature flag states written to disk: yes
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.607 [info] <0.44.0> Application cowlib started on node rabbit@4ad018b41da9
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.615 [info] <0.44.0> Application cowboy started on node rabbit@4ad018b41da9
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.621 [info] <0.676.0> Running boot step rabbit_mgmt_db_handler defined by app rabbitmq_management_agent
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.622 [info] <0.676.0> Management plugin: using rates mode 'basic'
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.623 [info] <0.44.0> Application rabbitmq_management_agent started on node rabbit@4ad018b41da9
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.642 [info] <0.44.0> Application prometheus started on node rabbit@4ad018b41da9
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.649 [info] <0.44.0> Application rabbitmq_web_dispatch started on node rabbit@4ad018b41da9
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.659 [info] <0.707.0> Prometheus metrics: HTTP (non-TLS) listener started on port 15692
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.659 [info] <0.676.0> Ready to start client connection listeners
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.659 [info] <0.44.0> Application rabbitmq_prometheus started on node rabbit@4ad018b41da9
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.661 [info] <0.826.0> started TCP listener on [::]:5672
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.821 [info] <0.676.0> Server startup complete; 3 plugins started.
+[33mrabbitmq_1  |[0m  * rabbitmq_prometheus
+[33mrabbitmq_1  |[0m  * rabbitmq_web_dispatch
+[33mrabbitmq_1  |[0m  * rabbitmq_management_agent
+
+[33mrabbitmq_1  |[0m  completed with 3 plugins.
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:53.821 [info] <0.676.0> Resetting node maintenance status
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:56.486 [info] <0.832.0> accepting AMQP connection <0.832.0> (192.168.144.4:42010 -> 192.168.144.2:5672)
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:05:56.551 [info] <0.832.0> connection <0.832.0> (192.168.144.4:42010 -> 192.168.144.2:5672): user 'guest' authenticated and granted access to vhost '/'
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.006 [info] <0.876.0> accepting AMQP connection <0.876.0> (192.168.144.3:35612 -> 192.168.144.2:5672)
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.044 [info] <0.876.0> connection <0.876.0> (192.168.144.3:35612 -> 192.168.144.2:5672): user 'guest' authenticated and granted access to vhost '/'
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.198 [info] <0.887.0> accepting AMQP connection <0.887.0> (192.168.144.3:35614 -> 192.168.144.2:5672)
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.206 [info] <0.887.0> connection <0.887.0> (192.168.144.3:35614 -> 192.168.144.2:5672): user 'guest' authenticated and granted access to vhost '/'
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.262 [info] <0.898.0> accepting AMQP connection <0.898.0> (192.168.144.3:35616 -> 192.168.144.2:5672)
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.292 [info] <0.898.0> connection <0.898.0> (192.168.144.3:35616 -> 192.168.144.2:5672): user 'guest' authenticated and granted access to vhost '/'
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.341 [info] <0.909.0> accepting AMQP connection <0.909.0> (192.168.144.3:35618 -> 192.168.144.2:5672)
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.346 [info] <0.909.0> connection <0.909.0> (192.168.144.3:35618 -> 192.168.144.2:5672): user 'guest' authenticated and granted access to vhost '/'
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.397 [info] <0.920.0> accepting AMQP connection <0.920.0> (192.168.144.3:35620 -> 192.168.144.2:5672)
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.404 [info] <0.920.0> connection <0.920.0> (192.168.144.3:35620 -> 192.168.144.2:5672): user 'guest' authenticated and granted access to vhost '/'
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.453 [info] <0.931.0> accepting AMQP connection <0.931.0> (192.168.144.3:35622 -> 192.168.144.2:5672)
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.457 [info] <0.931.0> connection <0.931.0> (192.168.144.3:35622 -> 192.168.144.2:5672): user 'guest' authenticated and granted access to vhost '/'
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.541 [info] <0.942.0> accepting AMQP connection <0.942.0> (192.168.144.3:35624 -> 192.168.144.2:5672)
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.545 [info] <0.942.0> connection <0.942.0> (192.168.144.3:35624 -> 192.168.144.2:5672): user 'guest' authenticated and granted access to vhost '/'
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.597 [info] <0.953.0> accepting AMQP connection <0.953.0> (192.168.144.3:35626 -> 192.168.144.2:5672)
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.603 [info] <0.953.0> connection <0.953.0> (192.168.144.3:35626 -> 192.168.144.2:5672): user 'guest' authenticated and granted access to vhost '/'
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.650 [info] <0.964.0> accepting AMQP connection <0.964.0> (192.168.144.3:35628 -> 192.168.144.2:5672)
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.662 [info] <0.964.0> connection <0.964.0> (192.168.144.3:35628 -> 192.168.144.2:5672): user 'guest' authenticated and granted access to vhost '/'
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.708 [info] <0.975.0> accepting AMQP connection <0.975.0> (192.168.144.3:35630 -> 192.168.144.2:5672)
+
+[33mrabbitmq_1  |[0m 2020-09-23 08:06:24.712 [info] <0.975.0> connection <0.975.0> (192.168.144.3:35630 -> 192.168.144.2:5672): user 'guest' authenticated and granted access to vhost '/'
+
+[36mhello_1     |[0m [ballerina/http] started HTTP/WS listener 0.0.0.0:9090
+[36mhello_1     |[0m 2020-09-23 08:06:23,969 INFO  [it-lt46/hello] - Request Received Time = 1600848383962 
+[36mhello_1     |[0m 2020-09-23 08:06:24,065 INFO  [it-lt46/hello] - Message sent Time = 1600848384065 
+[36mhello_1     |[0m 2020-09-23 08:06:24,192 INFO  [it-lt46/hello] - Request Received Time = 1600848384192 
+[36mhello_1     |[0m 2020-09-23 08:06:24,214 INFO  [it-lt46/hello] - Message sent Time = 1600848384214 
+[36mhello_1     |[0m 2020-09-23 08:06:24,260 INFO  [it-lt46/hello] - Request Received Time = 1600848384260 
+[36mhello_1     |[0m 2020-09-23 08:06:24,295 INFO  [it-lt46/hello] - Message sent Time = 1600848384295 
+[36mhello_1     |[0m 2020-09-23 08:06:24,338 INFO  [it-lt46/hello] - Request Received Time = 1600848384338 
+[36mhello_1     |[0m 2020-09-23 08:06:24,348 INFO  [it-lt46/hello] - Message sent Time = 1600848384348 
+[36mhello_1     |[0m 2020-09-23 08:06:24,395 INFO  [it-lt46/hello] - Request Received Time = 1600848384395 
+[36mhello_1     |[0m 2020-09-23 08:06:24,407 INFO  [it-lt46/hello] - Message sent Time = 1600848384407 
+[36mhello_1     |[0m 2020-09-23 08:06:24,450 INFO  [it-lt46/hello] - Request Received Time = 1600848384450 
+[36mhello_1     |[0m 2020-09-23 08:06:24,460 INFO  [it-lt46/hello] - Message sent Time = 1600848384460 
+[36mhello_1     |[0m 2020-09-23 08:06:24,539 INFO  [it-lt46/hello] - Request Received Time = 1600848384539 
+[36mhello_1     |[0m 2020-09-23 08:06:24,548 INFO  [it-lt46/hello] - Message sent Time = 1600848384548 
+[36mhello_1     |[0m 2020-09-23 08:06:24,595 INFO  [it-lt46/hello] - Request Received Time = 1600848384595 
+[36mhello_1     |[0m 2020-09-23 08:06:24,606 INFO  [it-lt46/hello] - Message sent Time = 1600848384606 
+[36mhello_1     |[0m 2020-09-23 08:06:24,648 INFO  [it-lt46/hello] - Request Received Time = 1600848384648 
+[36mhello_1     |[0m 2020-09-23 08:06:24,664 INFO  [it-lt46/hello] - Message sent Time = 1600848384663 
+[36mhello_1     |[0m 2020-09-23 08:06:24,704 INFO  [it-lt46/hello] - Request Received Time = 1600848384703 
+[36mhello_1     |[0m 2020-09-23 08:06:24,715 INFO  [it-lt46/hello] - Message sent Time = 1600848384715 
+[32mworld_1     |[0m error: org.ballerinalang.messaging.rabbitmq.RabbitMQConnectorException message=Error occurred while connecting to the broker: Connection refused (Connection refused) cause=error java.net.ConnectException message=Connection refused (Connection refused)
+[32mworld_1     |[0m 	at ballerina.rabbitmq:createConnection(connection.bal:75)
+[32mworld_1     |[0m 	   ballerina.rabbitmq.Connection:__init(connection.bal:28)
+[32mworld_1     |[0m 	   ballerina.rabbitmq.Connection:$__init$(connection.bal:22)
+[32mworld_1     |[0m [ballerina/rabbitmq] Consumer service started for queue hello-json
+[32mworld_1     |[0m 2020-09-23 08:06:24,112 INFO  [it-lt46/world] - Message Received Time = 1600848384093 
+[32mworld_1     |[0m 2020-09-23 08:06:24,125 INFO  [it-lt46/world] - finalmessage = hello world 
+[32mworld_1     |[0m 2020-09-23 08:06:24,125 INFO  [it-lt46/world] - Message Processed Time = 1600848384125 
+[32mworld_1     |[0m 2020-09-23 08:06:24,217 INFO  [it-lt46/world] - Message Received Time = 1600848384216 
+[32mworld_1     |[0m 2020-09-23 08:06:24,218 INFO  [it-lt46/world] - finalmessage = hello world 
+[32mworld_1     |[0m 2020-09-23 08:06:24,221 INFO  [it-lt46/world] - Message Processed Time = 1600848384220 
+[32mworld_1     |[0m 2020-09-23 08:06:24,296 INFO  [it-lt46/world] - Message Received Time = 1600848384296 
+[32mworld_1     |[0m 2020-09-23 08:06:24,297 INFO  [it-lt46/world] - finalmessage = hello world 
+[32mworld_1     |[0m 2020-09-23 08:06:24,298 INFO  [it-lt46/world] - Message Processed Time = 1600848384297 
+[32mworld_1     |[0m 2020-09-23 08:06:24,349 INFO  [it-lt46/world] - Message Received Time = 1600848384349 
+[32mworld_1     |[0m 2020-09-23 08:06:24,350 INFO  [it-lt46/world] - finalmessage = hello world 
+[32mworld_1     |[0m 2020-09-23 08:06:24,351 INFO  [it-lt46/world] - Message Processed Time = 1600848384350 
+[32mworld_1     |[0m 2020-09-23 08:06:24,409 INFO  [it-lt46/world] - Message Received Time = 1600848384409 
+[32mworld_1     |[0m 2020-09-23 08:06:24,410 INFO  [it-lt46/world] - finalmessage = hello world 
+[32mworld_1     |[0m 2020-09-23 08:06:24,411 INFO  [it-lt46/world] - Message Processed Time = 1600848384410 
+[32mworld_1     |[0m 2020-09-23 08:06:24,461 INFO  [it-lt46/world] - Message Received Time = 1600848384461 
+[32mworld_1     |[0m 2020-09-23 08:06:24,462 INFO  [it-lt46/world] - finalmessage = hello world 
+[32mworld_1     |[0m 2020-09-23 08:06:24,463 INFO  [it-lt46/world] - Message Processed Time = 1600848384463 
+[32mworld_1     |[0m 2020-09-23 08:06:24,551 INFO  [it-lt46/world] - Message Received Time = 1600848384550 
+[32mworld_1     |[0m 2020-09-23 08:06:24,552 INFO  [it-lt46/world] - finalmessage = hello world 
+[32mworld_1     |[0m 2020-09-23 08:06:24,554 INFO  [it-lt46/world] - Message Processed Time = 1600848384553 
+[32mworld_1     |[0m 2020-09-23 08:06:24,608 INFO  [it-lt46/world] - Message Received Time = 1600848384608 
+[32mworld_1     |[0m 2020-09-23 08:06:24,609 INFO  [it-lt46/world] - finalmessage = hello world 
+[32mworld_1     |[0m 2020-09-23 08:06:24,610 INFO  [it-lt46/world] - Message Processed Time = 1600848384610 
+[32mworld_1     |[0m 2020-09-23 08:06:24,666 INFO  [it-lt46/world] - Message Received Time = 1600848384666 
+[32mworld_1     |[0m 2020-09-23 08:06:24,668 INFO  [it-lt46/world] - finalmessage = hello world 
+[32mworld_1     |[0m 2020-09-23 08:06:24,669 INFO  [it-lt46/world] - Message Processed Time = 1600848384669 
+[32mworld_1     |[0m 2020-09-23 08:06:24,717 INFO  [it-lt46/world] - Message Received Time = 1600848384717 
+[32mworld_1     |[0m 2020-09-23 08:06:24,718 INFO  [it-lt46/world] - finalmessage = hello world 
+[32mworld_1     |[0m 2020-09-23 08:06:24,720 INFO  [it-lt46/world] - Message Processed Time = 1600848384719 

@@ -1,0 +1,31 @@
+Request 1
+Message Transfer Time in ms = 6
+Total Processing Time in ms= 551
+Request 2
+Message Transfer Time in ms = 20
+Total Processing Time in ms= 39
+Request 3
+Message Transfer Time in ms = 1600852922446
+Total Processing Time in ms= 32
+Request 4
+Message Transfer Time in ms = 1600852922520
+Total Processing Time in ms= 26
+Request 5
+Message Transfer Time in ms = 1600852922582
+Total Processing Time in ms= 26
+Request 6
+Message Transfer Time in ms = 1600852922662
+Total Processing Time in ms= 23
+Request 7
+Message Transfer Time in ms = 5
+Total Processing Time in ms= 18
+Request 8
+Message Transfer Time in ms = 2
+Total Processing Time in ms= 19
+Request 9
+Message Transfer Time in ms = 1600852922856
+Total Processing Time in ms= 23
+Request 10
+Message Transfer Time in ms = 1600852922919
+Total Processing Time in ms= 22
+Sum Total = 779

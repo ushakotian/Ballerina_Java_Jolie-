@@ -1,0 +1,84 @@
+{
+	"id": "35c264be-f06f-43ab-bebb-f37acdfee531",
+	"name": "ReST_Jolie_Json",
+	"timestamp": "2020-09-23T00:14:32.066Z",
+	"collection_id": "f3762f99-563b-4b8f-a4a0-06be3f45cce3",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 10,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "28eb37d5-047b-4a0f-8a2a-c939e8677add",
+			"name": "world_json",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				17,
+				14,
+				13,
+				16,
+				18,
+				17,
+				11,
+				17,
+				9,
+				9
+			],
+			"allTests": [
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 141,
+	"collection": {
+		"requests": [
+			{
+				"id": "28eb37d5-047b-4a0f-8a2a-c939e8677add",
+				"method": "GET"
+			}
+		]
+	}
+}

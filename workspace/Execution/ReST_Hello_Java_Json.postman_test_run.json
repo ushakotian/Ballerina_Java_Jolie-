@@ -1,0 +1,84 @@
+{
+	"id": "8b380fd2-cc95-46bb-86f8-a92be133a4e2",
+	"name": "ReST_Hello_Java_Json",
+	"timestamp": "2020-09-23T00:24:30.615Z",
+	"collection_id": "dfb49395-8d11-4127-86c7-20a535229f61",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 10,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "78a8df16-9b75-4663-a545-98db85cf3a8f",
+			"name": "hello_json",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				10,
+				19,
+				6,
+				11,
+				9,
+				6,
+				7,
+				8,
+				16,
+				13
+			],
+			"allTests": [
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 105,
+	"collection": {
+		"requests": [
+			{
+				"id": "78a8df16-9b75-4663-a545-98db85cf3a8f",
+				"method": "GET"
+			}
+		]
+	}
+}

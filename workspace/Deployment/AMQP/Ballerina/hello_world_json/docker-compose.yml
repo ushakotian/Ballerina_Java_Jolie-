@@ -26,6 +26,8 @@ services:
         context: .
         dockerfile:  ../world_json/Dockerfile
        image: world_amqp_json_bal
+       depends_on: 
+            - "hello"
        
        
        

@@ -1,0 +1,84 @@
+{
+	"id": "3920a96b-91b8-4696-a510-bf33879a6f1d",
+	"name": "ReST_Hello_Jolie_Xml",
+	"timestamp": "2020-09-23T00:25:24.238Z",
+	"collection_id": "35cb73b4-7d07-41b0-8629-b59b2ad0304c",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 10,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "14f48951-1344-43db-8fcb-a16930d52416",
+			"name": "hello_xml",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				18,
+				6,
+				4,
+				5,
+				4,
+				6,
+				5,
+				5,
+				5,
+				5
+			],
+			"allTests": [
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 63,
+	"collection": {
+		"requests": [
+			{
+				"id": "14f48951-1344-43db-8fcb-a16930d52416",
+				"method": "GET"
+			}
+		]
+	}
+}

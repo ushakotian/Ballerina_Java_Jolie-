@@ -1,0 +1,150 @@
+{
+	"id": "cf9e95ac-3de5-4aad-b4d0-42ee9a7989fd",
+	"name": "ReST_Ballerina",
+	"timestamp": "2020-09-23T00:08:31.574Z",
+	"collection_id": "da1bc6aa-3f54-40d9-aeb0-8fc0a09d5820",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 20,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0c531948-ab4c-4f2a-8ba1-fb2879ecfdbf",
+			"name": "world_json",
+			"time": 18,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				43,
+				25,
+				158,
+				53,
+				22,
+				16,
+				15,
+				23,
+				21,
+				18
+			],
+			"allTests": [
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "62b2e411-2d4c-4acc-a3fd-bab01d55fddf",
+			"name": "world_xml",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				38,
+				19,
+				20,
+				15,
+				15,
+				13,
+				16,
+				25,
+				69,
+				14
+			],
+			"allTests": [
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 638,
+	"collection": {
+		"requests": [
+			{
+				"id": "0c531948-ab4c-4f2a-8ba1-fb2879ecfdbf",
+				"method": "GET"
+			},
+			{
+				"id": "62b2e411-2d4c-4acc-a3fd-bab01d55fddf",
+				"method": "GET"
+			}
+		]
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"id": "c0727a76-458c-4ea0-959d-5f393b9a8929",
+	"name": "AMQP_Hello_Ballerina_Json",
+	"timestamp": "2020-09-23T01:08:23.616Z",
+	"collection_id": "f89c57ba-6175-40e4-a5cc-b8bc261739e1",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 10,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c661807f-2fe3-4818-bbed-5393c579e08c",
+			"name": "hello_json",
+			"time": 21,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				50,
+				20,
+				19,
+				18,
+				21,
+				19,
+				16,
+				16,
+				14,
+				21
+			],
+			"allTests": [
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 214,
+	"collection": {
+		"requests": [
+			{
+				"id": "c661807f-2fe3-4818-bbed-5393c579e08c",
+				"method": "GET"
+			}
+		]
+	}
+}

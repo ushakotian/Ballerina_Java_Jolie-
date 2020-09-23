@@ -21,6 +21,8 @@ public class world {
         Channel channel = connection.createChannel();
         channel.queueDeclare(QUEUE_NAME, false, false, false, null);
         DeliverCallback deliverCallback = (consumerTag, delivery) -> {
+            long time = System.currentTimeMillis();
+            System.out.println("Message Received Time = " + time);
             String response = new String(delivery.getBody(), "UTF-8");
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             try {
@@ -30,6 +32,8 @@ public class world {
                 Document doc = documentBuilder.parse(inputSource);
                 String message = doc.getElementsByTagName("message1").item(0).getTextContent();
                 System.out.println("finalmessage = " + message + " world");
+                long endTime = System.currentTimeMillis();
+                System.out.println("Message Processed Time = " + endTime);
             } catch (Exception ex) {
                 Logger.getLogger(world.class.getName()).log(Level.SEVERE, null, ex);
             }

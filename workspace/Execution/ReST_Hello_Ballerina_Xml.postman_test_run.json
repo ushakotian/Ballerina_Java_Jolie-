@@ -1,0 +1,84 @@
+{
+	"id": "250e45e9-94fe-4c60-875c-72b85a401b98",
+	"name": "ReST_Hello_Ballerina_Xml",
+	"timestamp": "2020-09-23T00:24:13.386Z",
+	"collection_id": "3a661579-6175-4a37-8b9e-5816567d69a4",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 10,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "30b743d0-c5bf-4e7c-8470-600bc56c9e5c",
+			"name": "hello_xml",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				70,
+				8,
+				9,
+				10,
+				9,
+				7,
+				9,
+				6,
+				7,
+				7
+			],
+			"allTests": [
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 142,
+	"collection": {
+		"requests": [
+			{
+				"id": "30b743d0-c5bf-4e7c-8470-600bc56c9e5c",
+				"method": "GET"
+			}
+		]
+	}
+}
