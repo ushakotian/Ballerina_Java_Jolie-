@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="bin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/bin/hello_json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/bin/hello_xml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/bin/world_json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/bin/world_xml.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

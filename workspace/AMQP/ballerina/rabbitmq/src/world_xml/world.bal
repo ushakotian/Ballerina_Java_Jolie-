@@ -2,15 +2,15 @@ import ballerina/log;
 import ballerina/rabbitmq;
 import ballerina/config;
 import ballerina/time;
-rabbitmq:Connection connection = new ({host:config:getAsString("rabbitmq.host"), port: 5672});
-listener rabbitmq:Listener channelListener = new (connection);
 const string  QUEUE_NAME2 = "hello-xml";
 @rabbitmq:ServiceConfig {
     queueConfig: {
         queueName: QUEUE_NAME2, durable : false, exclusive: false, autoDelete : false
     }
 }
-service rabbitmqConsumer2 on channelListener {    
+
+service world_xml on new rabbitmq:Listener(new rabbitmq:Connection({host: config:getAsString("rabbitmq.host"), port: 5672})) {
+    
     resource function onMessage(rabbitmq:Message message)  returns error?{ 
         time:Time time = time:currentTime();
         int startTime = time.time;

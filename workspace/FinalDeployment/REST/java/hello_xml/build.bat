@@ -1,0 +1,1 @@
+docker build -t hello_xml_java .

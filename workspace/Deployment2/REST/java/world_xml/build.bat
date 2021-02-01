@@ -1,0 +1,1 @@
+docker build -t world_xml_java .

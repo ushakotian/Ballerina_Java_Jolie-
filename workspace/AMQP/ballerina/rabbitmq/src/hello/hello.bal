@@ -4,11 +4,13 @@ import ballerina/config;
 import ballerina/time;
 import ballerina/log;
 @http:ServiceConfig {basePath: "/hello"}
-service hello on new http:Listener(9090) {
+
+service hello on new http:Listener(9091) {    
     @http:ResourceConfig {
         methods: ["GET"],
         path: "/hello"
     }  
+    
     resource function hello(http:Caller caller,  http:Request req) returns error? {  
         time:Time time = time:currentTime();
         int startTime = time.time;

@@ -4,15 +4,34 @@
     <groupId>com.mycompany</groupId>
     <artifactId>world</artifactId>    
     <packaging>jar</packaging>
-    <name>world</name>
+    <name>world_json</name>
+    <version>8.1-SNAPSHOT</version>
+    
+    <properties>
+       
+        <maven.compiler.plugin.version>3.1</maven.compiler.plugin.version>
+        
+    </properties>
+    
+    
     <build>
-        <plugins>
+        
+        <plugins>    
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.plugin.version}</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>        
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>world</mainClass>
+                            <mainClass>World</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -31,11 +50,7 @@
             </plugin>
         </plugins>        
     </build>
-    <parent>
-        <groupId>org.glassfish.javaeetutorial</groupId>
-        <artifactId>javaeetutorial</artifactId>
-        <version>8.1-SNAPSHOT</version>
-    </parent>  
+    
     
     <dependencies>
         <dependency>
@@ -47,6 +62,11 @@
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
             <version>20200518</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.0-alpha1</version>
         </dependency>
     </dependencies>
 </project>

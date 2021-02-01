@@ -2,4 +2,7 @@
 org-name= "it-lt46"
 version= "0.1.0"
 
-[dependencies]
+[dependencies."wso2/github4"]
+version= "0.9.19"
+
+[dependencies."wso2/sonarqube"]

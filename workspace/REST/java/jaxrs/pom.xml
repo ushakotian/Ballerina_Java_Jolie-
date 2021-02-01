@@ -12,9 +12,10 @@
     </parent>
     
     <modules>
-        <module>customer</module>
-        <module>hello</module>
-        <module>rsvp</module>
+        <module>hello_json</module>
+        <module>hello_xml</module>
+        <module>world_json</module>
+        <module>world_xml</module>
     </modules>
     
     <build>

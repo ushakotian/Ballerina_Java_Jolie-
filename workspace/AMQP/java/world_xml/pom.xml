@@ -5,14 +5,31 @@
     <artifactId>world_xml</artifactId>    
     <packaging>jar</packaging>
     <name>world_xml</name>
+    <version>8.1-SNAPSHOT</version>
+    
+    <properties>
+       
+        <maven.compiler.plugin.version>3.1</maven.compiler.plugin.version>
+        
+    </properties>
+    
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.plugin.version}</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin> 
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>world</mainClass>
+                            <mainClass>World</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -31,11 +48,7 @@
             </plugin>
         </plugins>        
     </build>
-    <parent>
-        <groupId>org.glassfish.javaeetutorial</groupId>
-        <artifactId>javaeetutorial</artifactId>
-        <version>8.1-SNAPSHOT</version>
-    </parent>  
+   
     
     <dependencies>
         <dependency>
@@ -47,6 +60,11 @@
             <groupId>javax.xml.parsers</groupId>
             <artifactId>jaxp-api</artifactId>
             <version>1.4.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.0-alpha1</version>
         </dependency>
     </dependencies>
 </project>

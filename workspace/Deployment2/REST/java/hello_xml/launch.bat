@@ -1,0 +1,1 @@
+docker run --name hello-xml -p 8083:8080 hello_xml_java:latest -d

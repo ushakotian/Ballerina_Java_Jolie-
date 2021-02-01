@@ -40,9 +40,9 @@
         <junit.version>4.11</junit.version>
         <eclipselink.version>2.5.0</eclipselink.version>
         <glassfish.embedded.version>4.0</glassfish.embedded.version>
-        <cargo.plugin.version>1.4.4</cargo.plugin.version>
+        <cargo.plugin.version>1.6.4</cargo.plugin.version>
         <glassfish.domain.name>domain1</glassfish.domain.name>
-        <glassfish.home>${glassfish.home.prefix}/glassfish5</glassfish.home>
+        <glassfish.home>C:\Program Files\glassfish-4.0</glassfish.home>
         <integration.container.id>glassfish4x</integration.container.id>
         <maven.deploy.skip>true</maven.deploy.skip>
         <maven.javadoc.skip>true</maven.javadoc.skip>
@@ -104,22 +104,10 @@
         </profile>
     </profiles>
     
-    <modules>
-        <module>archetypes</module>
-        <module>batch</module>
-        <module>case-studies</module>
-        <module>cdi</module>
-        <module>concurrency</module>
-        <module>connectors</module>
-        <module>ejb</module>
-        <module>jaxrs</module>
-        <module>jaxws</module>
-        <module>jms</module>
-        <module>persistence</module>
-        <module>security</module>
-        <module>web</module>
+    <modules>        
+        <module>jaxrs</module>        
         <module>world</module>
-        <module>test</module>
+        <module>world_xml</module>
     </modules>
     
     <repositories>

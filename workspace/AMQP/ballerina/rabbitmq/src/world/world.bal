@@ -3,8 +3,6 @@ import ballerina/log;
 import ballerina/rabbitmq;
 import ballerina/stringutils;
 import ballerina/time;
-rabbitmq:Connection connection = new ({host: config:getAsString("rabbitmq.host"), port: 5672});
-listener rabbitmq:Listener channelListener = new (connection);
 const string QUEUE_NAME = "hello-json";
 @rabbitmq:ServiceConfig {
     queueConfig: {
@@ -14,7 +12,9 @@ const string QUEUE_NAME = "hello-json";
         autoDelete: false
     }
 }
-service rabbitmqConsumer on channelListener {
+
+service world on new rabbitmq:Listener(new rabbitmq:Connection({host: config:getAsString("rabbitmq.host"), port: 5672})) {
+    
     resource function onMessage(rabbitmq:Message message) returns error? {
         time:Time time = time:currentTime();
         int startTime = time.time;
