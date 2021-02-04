@@ -1,0 +1,444 @@
+{
+	"id": "15b2bbb2-ccbc-486b-88b7-f3e693301fb2",
+	"name": "ReST_Ballerina_Xml",
+	"timestamp": "2021-02-01T06:08:55.585Z",
+	"collection_id": "0fc92030-da73-410d-b748-32b485e8e13a",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 100,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "628cb2e9-f805-4001-8749-d06db4cae240",
+			"name": "world_xml",
+			"time": 19,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 100,
+					"fail": 0
+				}
+			},
+			"times": [
+				995,
+				31,
+				29,
+				26,
+				25,
+				31,
+				30,
+				55,
+				34,
+				24,
+				28,
+				23,
+				27,
+				25,
+				23,
+				45,
+				37,
+				27,
+				26,
+				28,
+				24,
+				25,
+				27,
+				22,
+				18,
+				23,
+				29,
+				31,
+				21,
+				23,
+				24,
+				50,
+				31,
+				33,
+				19,
+				21,
+				29,
+				28,
+				29,
+				28,
+				24,
+				21,
+				23,
+				21,
+				19,
+				18,
+				23,
+				30,
+				27,
+				22,
+				52,
+				20,
+				21,
+				21,
+				16,
+				19,
+				36,
+				17,
+				15,
+				22,
+				40,
+				46,
+				16,
+				25,
+				14,
+				17,
+				22,
+				15,
+				14,
+				16,
+				18,
+				18,
+				16,
+				21,
+				20,
+				24,
+				21,
+				27,
+				13,
+				21,
+				16,
+				17,
+				15,
+				15,
+				23,
+				17,
+				15,
+				13,
+				17,
+				20,
+				13,
+				13,
+				13,
+				15,
+				16,
+				24,
+				17,
+				16,
+				27,
+				19
+			],
+			"allTests": [
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				},
+				{
+					"Status test": true
+				}
+			]
+		}
+	],
+	"count": 100,
+	"totalTime": 3336,
+	"collection": {
+		"requests": [
+			{
+				"id": "628cb2e9-f805-4001-8749-d06db4cae240",
+				"method": "GET"
+			}
+		]
+	}
+}

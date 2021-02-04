@@ -13,3 +13,12 @@
 /workspace/GRPC/java/final/grpc-world-server/target/
 /workspace/GRPC/java/final/grpc-world-client/target/
 /workspace/AMQP/java/test/target/
+/workspace/Execution/AMQPProcessor/nbproject/private/
+/workspace/Execution/AMQPProcessor/build/
+/workspace/Execution/AMQPProcessor/dist/
+/workspace/AMQP/java/jaxrs/greeter/target/
+/workspace/AMQP/java/jaxrs/hello/target/
+/workspace/AMQP/java/jaxrs/hello_xml/target/
+/workspace/REST/java/jaxrs/hello_xml/target/
+/workspace/REST/java/jaxrs/world_json/target/
+/workspace/REST/java/jaxrs/world_xml/target/

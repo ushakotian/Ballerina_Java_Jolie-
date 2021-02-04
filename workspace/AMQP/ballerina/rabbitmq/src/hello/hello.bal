@@ -5,7 +5,7 @@ import ballerina/time;
 import ballerina/log;
 @http:ServiceConfig {basePath: "/hello"}
 
-service hello on new http:Listener(9091) {    
+service hello on new http:Listener(9090) {    
     @http:ResourceConfig {
         methods: ["GET"],
         path: "/hello"

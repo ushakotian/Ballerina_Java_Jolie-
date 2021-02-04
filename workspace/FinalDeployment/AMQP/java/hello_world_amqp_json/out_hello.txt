@@ -1,0 +1,10 @@
+Launching GlassFish on Felix platform
+Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishRuntime@da2a653 in service registry.
+Found populator: com.sun.enterprise.v3.server.GFDomainXml
+
+
+
+#!## LogManagerService.postConstruct : rootFolder=/usr/local/glassfish4/glassfish
+#!## LogManagerService.postConstruct : templateDir=/usr/local/glassfish4/glassfish/lib/templates
+#!## LogManagerService.postConstruct : src=/usr/local/glassfish4/glassfish/lib/templates/logging.properties
+#!## LogManagerService.postConstruct : dest=/usr/local/glassfish4/glassfish/domains/domain1/config/logging.properties
