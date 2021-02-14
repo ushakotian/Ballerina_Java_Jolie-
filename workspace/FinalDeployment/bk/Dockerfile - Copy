@@ -1,6 +1,0 @@
-FROM java:8
-WORKDIR /home/java
-COPY jetty-runner-9.0.0.v20130308.jar /home/java
-COPY hello.war /home/java
-EXPOSE 8080
-CMD java -jar jetty-runner-9.0.0.v20130308.jar /home/java/hello.war

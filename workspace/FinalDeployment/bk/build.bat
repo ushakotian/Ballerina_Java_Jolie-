@@ -1,1 +1,0 @@
-docker build -t hello_json_java .

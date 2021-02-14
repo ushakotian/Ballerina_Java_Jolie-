@@ -9,7 +9,7 @@ while [ $counter -le 10 ]
 }
 
 function up(){
-	docker-compose up -d
+	docker-compose up -d --build
 	
 }
 

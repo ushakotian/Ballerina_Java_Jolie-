@@ -18,6 +18,6 @@ services:
         dockerfile:  ../world_json/Dockerfile
        image: world_rest_json_jolie
        ports:
-           - "8002:8000"
+           - "8002:8001"
        
        

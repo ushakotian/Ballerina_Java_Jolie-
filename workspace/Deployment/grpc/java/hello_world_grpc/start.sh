@@ -1,14 +1,14 @@
 function test(){
    counter=1
-while [ $counter -le 10 ]
+while [ $counter -le 100 ]
 	do 
-		docker-compose run hello
+		docker-compose run world
 		((counter++))
 	done
 }
 
 function up(){
-	docker-compose up -d
+	docker-compose up -d --build
 }
 
 function down(){

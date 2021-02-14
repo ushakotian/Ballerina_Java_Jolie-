@@ -20,6 +20,6 @@ services:
         dockerfile:  ../world_json/Dockerfile
        image: world_rest_json_bal
        ports:
-            - "9092:9090"
+            - "9092:9091"
        
        
